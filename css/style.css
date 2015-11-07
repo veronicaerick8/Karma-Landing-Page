@@ -12,7 +12,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-
 .content {
 	padding: 0 0.938rem;
 	margin:  0 auto;
@@ -27,6 +26,8 @@ background-color: #fff;
 font-size: 16px;
 color: #838994;
 letter-spacing: 0.02em;
+position: fixed;
+width: 100%;
 }
 
 .top-navigation .links li {
@@ -99,4 +100,28 @@ img {
 cursor: pointer;
  	color: LightGray;
  	background-color: #f46714;
+ }
+
+ .cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 18rem;
+}
+.cases .content {
+    margin-top: 8rem;
+    text-align: center;
+ }
+
+ .cases h2 {
+ 	font-size: 3rem;
+ 	font-weight: 200;
+
+ }
+
+ .cases .devices {
+ 	display: inline inline-block;
+ 	border: 1px dotted black;
+ 	box-sizing: border-box;
+ 	height: 4em;
+ 	width: 33%;
  }
