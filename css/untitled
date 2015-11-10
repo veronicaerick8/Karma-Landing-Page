@@ -1,0 +1,25 @@
+<section class="cases">
+		<div class="devices">
+			<h2>Everyone needs a little Karma.</h2>
+
+			sex
+			<img width="127" height="180" src="images/coffee.png" alt="Internet for all devices image">
+		</div>
+			
+                   <div class="devices">
+						<h3>Internet for all devices</h3>
+                    	<img width="130" height="130" src="images/comp.png" alt="Boost your productivity image">
+					</div>
+                        
+                    <div class="devices">
+						<h3>Boost your productivity</h3>
+                   		<img width="130" height="130" src="images/refill.png" alt="Pay as You Go image">
+                
+                    	<h3>Pay as You Go</h3>
+					</div>
+                   
+
+                    
+        </div>
+          
+    	</section>

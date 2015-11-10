@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: LightGray;
+   
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -28,11 +28,13 @@ color: #838994;
 letter-spacing: 0.02em;
 position: fixed;
 width: 100%;
+z-index: 9999;
 }
 
 .top-navigation .links li {
  	display: inline-block;
  	margin: 25px;
+    float: right;
  }
 
  .top-navigation .links > .active {
@@ -50,20 +52,13 @@ width: 100%;
 	padding: 0px 15px;
 	width: 970px;
 }
- .top-navigation .links {
- 	float: right;
- }
-
-img {
-	height: 70px;
-}
 
 .introduction {
 	background-image: url("../images/first-background.jpg");
-	  background-position: center bottom;
+	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 45rem;
 
 }
 
@@ -102,26 +97,24 @@ cursor: pointer;
  	background-color: #f46714;
  }
 
- .cases {
-    background-color: #fff;
-    overflow: hidden;
-    padding-bottom: 18rem;
+
+.cases .devices {
+ 	  width: 33%;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    align-items: center;
+    padding: 0px;
+
 }
-.cases .content {
-    margin-top: 8rem;
+
+.cases h2 {
     text-align: center;
- }
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 8rem;
+    margin-bottom: 2.74rem;
+}
+ 
 
- .cases h2 {
- 	font-size: 3rem;
- 	font-weight: 200;
-
- }
-
- .cases .devices {
- 	display: inline inline-block;
- 	border: 1px dotted black;
- 	box-sizing: border-box;
- 	height: 4em;
- 	width: 33%;
- }
