@@ -13,8 +13,8 @@ body {
 }
 
 .content {
-	padding: 0 0.938rem;
-	margin:  0 auto;
+    padding: 0 0.938rem;
+    margin:  0 auto;
 }
 
 div {
@@ -32,30 +32,30 @@ z-index: 9999;
 }
 
 .top-navigation .links li {
- 	display: inline-block;
- 	margin: 25px;
+    display: inline-block;
+    margin: 25px;
     float: right;
  }
 
  .top-navigation .links > .active {
- 	color: #4c5058;
+    color: #4c5058;
     font-weight: 500;
  }
 
   .top-navigation .links li:hover {
- 	cursor: pointer;
- 	color: LightGray;
+    cursor: pointer;
+    color: LightGray;
  }
 
 .top-navigation > .content {
-	height: 70px;
-	padding: 0px 15px;
-	width: 970px;
+    height: 70px;
+    padding: 0px 15px;
+    width: 970px;
 }
 
 .introduction {
-	background-image: url("../images/first-background.jpg");
-	background-position: center bottom;
+    background-image: url("../images/first-background.jpg");
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
@@ -75,39 +75,40 @@ z-index: 9999;
 }
 .introduction h3 {
     margin-top: 20px;
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
 }
 
 .big-button {
-	text-shadow: none;
-	border-style: none;
-	border-radius: 4px;
-	padding: 16px 26px;
-	line-height: 1.33;
-	background-color: Chocolate;
-	font-size: 16px;
-	display: block;
-	margin: 0 auto;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: Chocolate;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
 }
 
 .big-button:hover {
 cursor: pointer;
- 	color: LightGray;
- 	background-color: #f46714;
+    color: LightGray;
+    background-color: #f46714;
  }
 
 
 .cases .devices {
- 	  width: 33%;
+    width: 33%;
     display: inline-block;
-    border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
     align-items: center;
     padding: 0px;
+    text-align: center;
 
 }
+
 
 .cases h2 {
     text-align: center;
@@ -116,5 +117,13 @@ cursor: pointer;
     margin-top: 8rem;
     margin-bottom: 2.74rem;
 }
- 
+
+.content-spacing {
+    padding-left: 12.3rem;
+    padding-right: 12.3rem;
+    padding-bottom: 5rem;
+}
+
+
+
 
