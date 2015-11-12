@@ -4,6 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0 auto;
+
 }
 
 body {
@@ -17,9 +18,6 @@ body {
     margin:  0 auto;
 }
 
-div {
-    border: 1px solid Chocolate;
-}
 
 .top-navigation {
 background-color: #fff;
@@ -29,12 +27,14 @@ letter-spacing: 0.02em;
 position: fixed;
 width: 100%;
 z-index: 9999;
+text-align: right;
 }
+
 
 .top-navigation .links li {
     display: inline-block;
     margin: 25px;
-    float: right;
+   
  }
 
  .top-navigation .links > .active {
@@ -97,18 +97,13 @@ cursor: pointer;
     background-color: #f46714;
  }
 
-.cases {
-    overflow: auto;
-}
 
 .cases .devices {
     width: 32.55%;
     display: inline-block;
     box-sizing: border-box;
-    height: 2em;
-    align-items: center;
     text-align: center;
-    float: center;
+    
 }
 
 
@@ -121,8 +116,8 @@ cursor: pointer;
 }
 
 .content-spacing {
-    padding-left: 9em;
-    padding-right: 9rem;
+    padding-left: 2em;
+    padding-right: 2rem;
     padding-bottom: 5rem;
 
 }
