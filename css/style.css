@@ -97,16 +97,18 @@ cursor: pointer;
     background-color: #f46714;
  }
 
+.cases {
+    overflow: auto;
+}
 
 .cases .devices {
-    width: 33%;
+    width: 32.55%;
     display: inline-block;
     box-sizing: border-box;
-    height: 4em;
+    height: 2em;
     align-items: center;
-    padding: 0px;
     text-align: center;
-
+    float: center;
 }
 
 
@@ -119,10 +121,52 @@ cursor: pointer;
 }
 
 .content-spacing {
-    padding-left: 12.3rem;
-    padding-right: 12.3rem;
+    padding-left: 9em;
+    padding-right: 9rem;
     padding-bottom: 5rem;
+
 }
+
+.social {
+    padding-bottom: 5rem;
+    text-align: center;
+    
+}
+
+.social .icons > li {
+    border-radius: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.social .copy {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
 
 
 
